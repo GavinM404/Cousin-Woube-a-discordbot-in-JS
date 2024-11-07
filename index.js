@@ -10,7 +10,7 @@ client.on("ready", () => {
   console.log("The bot is online");
 });
 
-const CHANNELS = ["815094850525462532"];
+const CHANNELS = ["815094850525462532", "1069489054372077642"];
 const RESPONSE_PREFIX = "!";
 
 const openai = new OpenAI({

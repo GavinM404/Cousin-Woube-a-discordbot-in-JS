@@ -67,7 +67,7 @@ client.on("messageCreate", async (message) => {
 
   const response = await openai.chat.completions
     .create({
-      model: "gpt-4",
+      model: "gpt-4o-mini",
       messages: conversation,
     })
     .catch((error) => console.error("OpenAI Error:\n", error));
